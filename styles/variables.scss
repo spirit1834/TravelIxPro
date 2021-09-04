@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Segoe UI.ttf') format('true type')
+}
+
+$_white:#ffffff;
+$_pearl: #fafafb;
+$_grey: #666666;
+$_dark-grey: #474747;
+$_blue: #1f39ba;
+$_header-bg: #f4f6ff;
+$_services: #fafaff;
+$_shadow:#d8d8d8;
+$_gold:#db6300;
+$_reviews: #cacaca;
+
+.gold{
+  color: $_gold !important;
+}
+.flex{
+  display: flex !important;
+}
+.none{
+  display: none !important;
+}

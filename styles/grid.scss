@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;
+  width: 117rem;
+
+  &_item {
+    grid-row: 1/2;
+
+    &-01 {
+      grid-column: 1/2
+    }
+
+    &-02 {
+      grid-column: 2/3
+    }
+
+    &-03 {
+      grid-row: 3/4;
+    }
+
+    &-04 {
+      grid-row: 4/5;
+    }
+  }
+}
